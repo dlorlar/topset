@@ -1,0 +1,10 @@
+{
+    "standard": "standard_user",
+    "locked": "locked_out_user",
+    "problem": "problem_user",
+    "glitch": "performance_glitch_user",
+    "password": "secret_sauce",
+    "usernameField": "[data-test='username']",
+    "passwordField": "[data-test='password']",
+    "loginButton": "[data-test='login-button']"
+}

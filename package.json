@@ -1,0 +1,22 @@
+{
+  "name": "cypress10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "typescript"
+  ],
+  "author": "damilola ogunlusi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.5.0",
+    "cypress-fill-command": "^1.0.2",
+    "cypress-localstorage-commands": "^2.2.2"
+  }
+}

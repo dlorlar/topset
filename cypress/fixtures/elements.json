@@ -1,0 +1,13 @@
+
+{
+  "email": "qa.analyst@email.com",
+  "password": "Password123!",
+  "emailField": ":nth-child(1) > .w-full",
+  "passwordField": ".mt-4 > .relative > .block",
+  "btnLogin": ".mt-6 > .flex",
+  "wrongEmail": "qa@email.com",
+  "wrongPassword": "password",
+  "invalidAlert": ".text-red-500",
+  "alert": ".text-red-600",
+  "searchBox": ".gLFyf"
+}
