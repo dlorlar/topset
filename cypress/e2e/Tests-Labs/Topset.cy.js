@@ -26,7 +26,7 @@ describe('Login Functionality', () => {
             cy.get(el.passwordField).type(el.wrongPassword)
             cy.get(el.btnLogin).click()
             cy.get(el.alert).should('be.visible').contains('Invalid login details')
-            cy.wait(2000)
+            cy.wait(3000)
         })
     })
 
