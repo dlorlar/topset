@@ -1,6 +1,11 @@
 const users = Cypress.env('USERS')
+const url = Cypress.env('topUrl')
 
 describe('login to saucedemo site', () => {
+
+    beforeEach(() => {
+        cy.visit(url)
+    })
   it('should login as a standard user', () => {
       cy.login(users['standard']);
       cy.url().should('include', '/inventory.html')
