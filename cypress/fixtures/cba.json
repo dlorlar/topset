@@ -1,13 +1,16 @@
 {
     
-    "email": "dharmelorlar88@gmail.com",
+    "username": "efe.ebosele",
     "password": "Testing10$",
-    "emailField": "#login-username2",
+    "usernameField": "#Username",
     "passwordField": "#Password",
-    "btnLogin": "#btnSubmit",
+    "btnLogin": ":nth-child(3) > .btn",
     "wrongEmail": "qa@email.com",
     "wrongPassword": "password",
     "invalidAlert": ".text-red-500",
     "alert": ".text-red-600",
-    "searchBox": ".gLFyf"
+    "searchBox": ".gLFyf",
+    "staffnoField":"#StaffNo",
+    "staffNo":"100293"
+
   }

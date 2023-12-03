@@ -17,6 +17,6 @@
   "devDependencies": {
     "cypress": "^13.6.0",
     "cypress-fill-command": "^1.0.2",
-    "cypress-localstorage-commands": "^2.2.2"
+    "cypress-localstorage-commands": "^2.2.5"
   }
 }
