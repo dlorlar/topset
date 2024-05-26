@@ -1,0 +1,7 @@
+{
+    "usernameField": "#auth-name",
+    "username": "fintrak",
+    "passwordField":"#auth-password",
+    "password": "testing",
+    "btnLogin": "#loginform > div.form-group.text-center.m-t-40 > div > button"
+}

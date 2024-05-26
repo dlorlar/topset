@@ -1,0 +1,9 @@
+{
+    "usernameField": ":nth-child(1) > .form-group",
+    "username": "ogunlusiomotayo88@gmail.com",
+    "passwordField":":nth-child(2) > .form-group",
+    "password": "Testing10$",
+    "btnLogin": "#btnSubmit",
+    "btnLogout": "#logoutForm > a"
+
+}

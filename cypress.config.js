@@ -5,7 +5,7 @@ module.exports = defineConfig({
   e2e: {
     //baseUrl: "https://www.saucedemo.com",
     defaultCommandTimeout: 30000,
-    pageLoadTimeout: 900000,
+    pageLoadTimeout: 400000,
     viewportHeight: 900,
     viewportWidth: 1400,
     watchForFileChanges: false,

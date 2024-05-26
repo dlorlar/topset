@@ -26,3 +26,6 @@
 import "cypress-fill-command"
 /// <reference types="Cypress" />
 import "cypress-localstorage-commands"
+Cypress.Commands.add('loginByToken', (token) => {
+    window.sessionStorage.setItem('authToken', token);
+  });
