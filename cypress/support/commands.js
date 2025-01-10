@@ -25,7 +25,15 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import "cypress-fill-command"
 /// <reference types="Cypress" />
+/// <reference types="cypress-xpath" />
 import "cypress-localstorage-commands"
 Cypress.Commands.add('loginByToken', (token) => {
     window.sessionStorage.setItem('authToken', token);
   });
+
+Cypress.Commands.add('getIframe', (iframe)=>{
+  cy.get(iframe)
+  .its('0.contentDocument.body')
+  .should('be.visible')
+  .then(cy.wrap);
+})

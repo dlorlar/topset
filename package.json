@@ -15,9 +15,10 @@
   "author": "damilola ogunlusi",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.14.1",
+    "cypress": "^13.16.0",
     "cypress-fill-command": "^1.0.2",
     "cypress-iframe": "^1.0.1",
-    "cypress-localstorage-commands": "^2.2.5"
+    "cypress-localstorage-commands": "^2.2.5",
+    "cypress-xpath": "^2.0.1"
   }
 }

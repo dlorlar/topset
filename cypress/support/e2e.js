@@ -39,3 +39,4 @@ Cypress.Commands.add("mRestoreLocalStorage", () => {
     localStorage.setItem(key, LOCAL_STORAGE_MEMORY[key]);
   });
 });
+require('cypress-xpath')
